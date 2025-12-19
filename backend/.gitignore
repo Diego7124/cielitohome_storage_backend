@@ -1,0 +1,31 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+
+# Credenciales de Firebase
+serviceAccountKey.json
+*-firebase-adminsdk-*.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+
+# Cobertura de tests
+coverage/
